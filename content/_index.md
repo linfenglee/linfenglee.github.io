@@ -52,16 +52,6 @@ sections:
     design:
       view: citation
   - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
     id: talks
     content:
       title: Recent & Upcoming Talks
@@ -69,7 +59,7 @@ sections:
         folders:
           - events
     design:
-      view: card
+      view: citation
   - block: collection
     id: news
     content:
